@@ -18,11 +18,11 @@
 }
 .part2{
     position: relative;
-    top: 441px;
+    top: 500px;
     font-size: 17px;
 }
 .btn{
-    margin: 15px 50px 15px 0px;
+    margin: 15px 150px 15px 0px;
 }
 .btn1{
     background-color: #25c4ec;
@@ -33,6 +33,7 @@
 }
 h2{
     text-align: center;
+    margin-top: 40px;
 }
 .grid-container{
     display: grid;
@@ -40,5 +41,56 @@ h2{
 }
 .grid-item{
     justify-content: center;
-    padding: 50px
+    padding: 50px 0px 60px 110px;
+}
+.image1{
+     padding-left: 80px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 40px 100px 10px 100px;
+}
+.image2{
+    border-radius: 100px;
+}
+.part3{
+    position: relative;
+    top: 80px;
+    margin-left: 300px;
+    background-color:rgb(255, 255, 255, 0.6);
+    margin-right: 300px;
+}
+.btn2{
+    background-color: #25c4ec;
+    color:#fff;
+    border: 0;
+    padding: 5px;
+    width: 20;
+}
+.btnn{
+    margin-left: 800px;
+    position: relative;
+    top: 40px;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    color:white;
+}
+.grid-item3{
+    padding: 80px;
+    text-align: center;
+}
+.text2{
+    text-align:center;
+    position: relative;
+    bottom: 50px;
+    color: white;
 }
